@@ -12,17 +12,22 @@
     </header>
     <section class="home">
         <div class="class">
-            <form action="backend.php" id="form">
+            <form id="form">
                 <div class="log">
                     <label for="celcius">Temperature in celcius : </label>
-                    <input type="number" placeholder="Enter temperature">
+                    <input id="temp" type="number" placeholder="Enter temperature">
                 </div>
                 <div class="log">
-                    <button id="but" type="button" value="convert">Convert</button>
+                    <input onclick="getCelcius()" id="but" type="button" value="Convert">
+                </div>
+
+                <div class="log">
+                   <p id="temp-c">Temperature</p>
                 </div>
             </form>
         </div>
     </section>
     
 </body>
+<script src="temp.js"></script>
 </html>

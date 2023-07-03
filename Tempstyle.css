@@ -87,3 +87,11 @@ button {
     margin-bottom: 0px;
     margin-left: 25%;
 }
+
+#but{
+    background: blue ;
+    color: white;
+}
+#temp-c{
+    color: black;
+}
